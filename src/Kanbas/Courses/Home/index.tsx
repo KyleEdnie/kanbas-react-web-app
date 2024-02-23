@@ -1,4 +1,5 @@
 import ModuleList from "../Modules/List";
+import "bootstrap/dist/css/bootstrap.css"
 
 
 function Home() {
