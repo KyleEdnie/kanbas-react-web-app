@@ -5,7 +5,7 @@ import "bootstrap/dist/css/bootstrap.css"
 function Home() {
   return (
     <div>
-      <h2>Home</h2>
+      
       <ModuleList />
       <h2>Course Status</h2>
       <table>

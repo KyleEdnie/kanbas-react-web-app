@@ -1,4 +1,3 @@
-import { courses } from "../../Kanbas/Database";
 import {
   Navigate,
   Route,
@@ -13,7 +12,7 @@ import Home from "./Home";
 import Assignments from "./Assignments";
 import "bootstrap/dist/css/bootstrap.css"
 
-function Courses() {
+function Courses( {courses }: { courses: any[]; }) {
   const { courseId } = useParams();
   const coursePage = useLocation().pathname.split("/").slice(-1);
 
